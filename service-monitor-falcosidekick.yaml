@@ -11,7 +11,7 @@ spec:
       app.kubernetes.io/name: falcosidekick
       app.kubernetes.io/instance: falco
   namespaceSelector:
-    matchNames:
+    matchNames: 
       - falco
   endpoints:
     - port: http
